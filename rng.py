@@ -23,3 +23,4 @@ print (len(x),len(y), len(z))
 
 fix = px.scatter_3d(x = x, y = y, z = z)
 fix.show()
+
