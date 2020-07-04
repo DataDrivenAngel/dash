@@ -21,6 +21,11 @@ fig = go.Figure(data=[go.Scatter3d(
 )])
 
 
+
 # tight layout
 fig.update_layout(margin=dict(l=0, r=0, b=0, t=0))
 fig.show()
+
+
+
+#fig.show()
