@@ -1,6 +1,8 @@
 import plotly.express as px
 import numpy as np
 
+
+# want better random numbers
 print("starting")
 n = 5000
 x = np.random.standard_normal(n)
