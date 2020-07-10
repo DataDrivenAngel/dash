@@ -12,6 +12,9 @@ c = 0.4
 
 rng = default_rng()
 
+#todo: more fun random numbers
+
+
 x = np.linspace(genlogistic.ppf(0.01, c),
                 genlogistic.ppf(0.99, c), size)
 y = 2*rng.random(size)
